@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flex-container>div{
+        background-color: blue;
+
+    }
+    .menu {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+    @media screen and (max-width:668px) {
+        .flex-container{
+            background-color: purple;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>div 1</div>
+        <ul class="menu">
+            <li>sumaya</li>
+            <li>sumaya</li>
+            <li>sumaya</li>
+            <li>sumaya</li>
+        </ul>
+    </div>
+</body>
+</html>

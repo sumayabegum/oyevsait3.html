@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .logo{
+        display: flex;
+        justify-content: space-between;
+     }
+     .my{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+     }
+     .my>li{
+        background-color: aqua;
+     }
+     @media screen and (max-width:830px){
+        .logo{
+            background-color:rgb(255, 0, 8);
+            flex-direction: column;
+            align-items: start;
+        }
+        .my{
+            flex-direction: column;
+        }
+     }
+
+     @media screen and (max-width:730px){
+        .logo{
+            background-color:yellow;
+            flex-direction: column;
+            align-items: start;
+        }
+        .my{
+            flex-direction: column;
+        }
+     }
+     
+     
+    </style>
+</head>
+<body>
+    <section class="logo">
+        <div>logo</div>
+        
+             <ul class="my">
+            <li>my</li>
+            <li>my</li>
+            <li>my</li>
+            <li>my</li>
+             </ul>
+        
+    </section>
+</body>
+</html>
